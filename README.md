@@ -1,6 +1,6 @@
-# sms.net.bd NuGet Package Documentation
+# sms.bd NuGet Package Documentation
 
-[![NuGet Version](https://img.shields.io/badge/NuGet-2.0.0-blue?style=flat)](https://www.nuget.org/packages/smsnetbd.Csharp.Client)
+[![NuGet Version](https://img.shields.io/badge/NuGet-2.0.3-blue?style=flat)](https://www.nuget.org/packages/smsnetbd.Csharp.Client)
 ![.NET Standard](https://img.shields.io/badge/.NET_Standard-2.0-purple?style=flat)
 ![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.6.1+-critical?style=flat)
 ![Xamarin.iOS](https://img.shields.io/badge/Xamarin.iOS-10.14+-lightgrey?style=flat)
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The `smsnetbd.Csharp.Client` package provides a simple and powerful interface to interact with the sms.net.bd API for sending SMS messages, managing campaigns, and monitoring account status.
+The `smsnetbd.Csharp.Client` package provides a simple and powerful interface to interact with the sms.bd API for sending SMS messages, managing campaigns, and monitoring account status.
 
 ## Installation
 
@@ -21,9 +21,9 @@ NuGet\Install-Package smsnetbd.Csharp.Client
 
 ### Initialize the SMS Client
 
-Obtain your API key from [sms.net.bd API portal](https://www.sms.net.bd/api) and initialize the client:
+Obtain your API key from [sms.bd API portal](https://www.sms.bd/api) and initialize the client:
 ```csharp
-using sms.net.bd;
+using SMS_BD;
 
 // Initialize SMS client with your API key
 SMS smsClient = new SMS("your-api-key");
@@ -179,16 +179,16 @@ The package supports .NET Standard 2.0, ensuring compatibility with:
 
 ## Resources
 
-- **API Documentation**: [https://www.sms.net.bd/api](https://www.sms.net.bd/api)
+- **API Documentation**: [https://www.sms.bd/api](https://www.sms.bd/api)
 - **NuGet Package**: [https://www.nuget.org/packages/smsnetbd.Csharp.Client](https://www.nuget.org/packages/smsnetbd.Csharp.Client)
-- **GitHub Repository**: [https://github.com/smsnetbd/sms-net-bd-csharp-nuget](https://github.com/smsnetbd/sms-net-bd-csharp-nuget)
+- **GitHub Repository**: [https://github.com/smsbd/sms-bd-csharp-nuget](https://github.com/smsbd/sms-bd-csharp-nuget)
 
 ## Support & Feedback
 
 We value your feedback! If you encounter any issues or have suggestions:
 
 - Contact our support team
-- [Open an issue on GitHub](https://github.com/smsnetbd/sms-net-bd-csharp-nuget/issues)
+- [Open an issue on GitHub](https://github.com/smsbd/sms-bd-csharp-nuget/issues)
 - Star us on GitHub if you find this package helpful!
 
-**Thank you for using sms.net.bd!**
+**Thank you for using sms.bd!**
