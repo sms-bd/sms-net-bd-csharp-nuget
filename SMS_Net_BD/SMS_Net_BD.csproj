@@ -11,7 +11,7 @@
     <Authors>SmsBd.Developer_Team</Authors>
     <Company>smsbd</Company>
     <Description>SMS Tool using SMS API by sms.bd</Description>
-    <RepositoryUrl>https://github.com/smsbd/sms-bd-csharp-nuget</RepositoryUrl>
+    <RepositoryUrl>https://github.com/sms-bd/sms-bd-csharp-nuget</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>sms, smsbd, sms.net, sms.bd, tool, sms.tool</PackageTags>
     <Copyright>Copyright ©2024 sms.bd All rights reserved.</Copyright>
