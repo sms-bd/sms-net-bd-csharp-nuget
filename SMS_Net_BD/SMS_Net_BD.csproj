@@ -7,7 +7,7 @@
     <Nullable>disable</Nullable>
     <PackageId>smsnetbd.Csharp.Client</PackageId>
     <Title>sms.bd: SMS Sender API Service</Title>
-    <Version>2.0.3</Version>
+    <Version>2.0.4</Version>
     <Authors>SmsBd.Developer_Team</Authors>
     <Company>smsbd</Company>
     <Description>SMS Tool using SMS API by sms.bd</Description>
