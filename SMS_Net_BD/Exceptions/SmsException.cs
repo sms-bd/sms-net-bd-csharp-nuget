@@ -1,4 +1,4 @@
-﻿namespace SMS_Net_BD.Exceptions
+﻿namespace SMS_BD.Exceptions
 {
     /// <summary>
     /// SMS Exception

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SMS_Net_BD.DTOJson
+namespace SMS_BD.DTOJson
 {
     public class JsonRoot
     {

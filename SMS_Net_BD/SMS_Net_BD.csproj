@@ -6,37 +6,37 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <PackageId>smsnetbd.Csharp.Client</PackageId>
-    <Title>sms.net.bd: SMS Sender API Service</Title>
-    <Version>2.0.2</Version>
-    <Authors>SmsNetBd.Developer_Team</Authors>
-    <Company>smsnetbd</Company>
-    <Description>SMS Tool using SMS API by sms.net.bd</Description>
-    <RepositoryUrl>https://github.com/smsnetbd/sms-net-bd-csharp-nuget</RepositoryUrl>
+    <Title>sms.bd: SMS Sender API Service</Title>
+    <Version>2.0.3</Version>
+    <Authors>SmsBd.Developer_Team</Authors>
+    <Company>smsbd</Company>
+    <Description>SMS Tool using SMS API by sms.bd</Description>
+    <RepositoryUrl>https://github.com/smsbd/sms-bd-csharp-nuget</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>sms, smsbd, sms.net, sms.bd, tool, sms.tool</PackageTags>
-    <Copyright>Copyright ©2024 sms.net.bd All rights reserved.</Copyright>
+    <Copyright>Copyright ©2024 sms.bd All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageIcon>logo_icon.png</PackageIcon>
     <PackageReleaseNotes>
 
-		# SMS.Net.Bd NuGet Package Release Note
+		# SMS.Bd NuGet Package Release Note
 
-		## New Update smsnetbd.Csharp.Client v2.0.0
+		## New Update smsbd.Csharp.Client v2.0.0
 
 
-		We are excited to announce the release of version 2.0.0 of the `smsnetbd.Csharp.Client` NuGet package! This update introduces several significant enhancements and new features to streamline your SMS campaign management and broaden platform support.
+		We are excited to announce the release of version 2.0.0 of the `smsbd.Csharp.Client` NuGet package! This update introduces several significant enhancements and new features to streamline your SMS campaign management and broaden platform support.
 
 		## New Features
 
 		### 1. Supports a wide range of .NET platform compatibility
-		To ensure compatibility across all .NET platforms, we've added support for .NET Standard 2.0. This enhancement allows developers to integrate the `SMSNetBD.CSharp.Client` package into a wide range of .NET applications, including those targeting .NET Framework, .NET Core, Xamarin, and more.
+		To ensure compatibility across all .NET platforms, we've added support for .NET Standard 2.0. This enhancement allows developers to integrate the `SMSBD.CSharp.Client` package into a wide range of .NET applications, including those targeting .NET Framework, .NET Core, Xamarin, and more.
 
 		### 2. Get All Approved Campaign Content List
 		We have introduced a new method that allows you to retrieve a list of all approved campaign content available in your account. This feature enables you to easily manage and review the content before initiating any SMS campaigns.
 
-		### 3. Send SMS Campaign Content via sms.net.bd API
-		The latest update also includes a method to send SMS campaign content directly through the sms.net.bd API. This method leverages the campaign content ID to ensure accurate and targeted messaging to your audience.
+		### 3. Send SMS Campaign Content via sms.bd API
+		The latest update also includes a method to send SMS campaign content directly through the sms.bd API. This method leverages the campaign content ID to ensure accurate and targeted messaging to your audience.
 
 		## How to Use the New Features
 
@@ -71,28 +71,28 @@
 		```
 
 
-		We appreciate your continued [support and feedback](https://github.com/smsnetbd/sms-net-bd-csharp-nuget). If you have any questions or encounter any issues, please do not hesitate to contact our support team.
+		We appreciate your continued [support and feedback](https://github.com/smsbd/sms-bd-csharp-nuget). If you have any questions or encounter any issues, please do not hesitate to contact our support team.
 
 		## Version 1.1.0
 
 		### Summary:
-		The SMS.Net.Bd NuGet package provides a simple interface to send SMS messages using the SMS.Net.Bd API. This release introduces initial support for sending SMS messages, scheduling SMS messages, checking SMS delivery reports, and retrieving account balance.
+		The SMS.Bd NuGet package provides a simple interface to send SMS messages using the SMS.Bd API. This release introduces initial support for sending SMS messages, scheduling SMS messages, checking SMS delivery reports, and retrieving account balance.
 
 		### Initialization:
-		To start using the SMS.Net.Bd NuGet package, follow these steps:
+		To start using the SMS.Bd NuGet package, follow these steps:
 
 
-		1. **Initialize SMS Client**: Create an instance of the `SMS` class by providing your API key. This API key can be obtained from the [SMS.Net.Bd API website](https://www.sms.net.bd/api).
+		1. **Initialize SMS Client**: Create an instance of the `SMS` class by providing your API key. This API key can be obtained from the [SMS.Bd API website](https://www.sms.bd/api).
 
 		```csharp
-		using SMS.Net.Bd;
+		using SMS.Bd;
 
 		// Initialize SMS client with your API key
 		SMS smsClient = new SMS("Your-API-Key");
 		```
 
 		### Usage:
-		After initializing the SMS client, you can use its methods to interact with the SMS.Net.Bd API. Below are the available methods and their usage:
+		After initializing the SMS client, you can use its methods to interact with the SMS.Bd API. Below are the available methods and their usage:
 
 		1. **SendSMS**: Send a text message to a specified phone number.
 
@@ -130,14 +130,14 @@
 
 		### Feedback and Support
 
-		We welcome your feedback and suggestions for improving the SMS.Net.Bd NuGet package. If you encounter any issues or have questions, please contact [Your Contact Information] or open an issue on the GitHub repository.
+		We welcome your feedback and suggestions for improving the SMS.Bd NuGet package. If you encounter any issues or have questions, please contact [Your Contact Information] or open an issue on the GitHub repository.
 
-		Thank you for using SMS.Net.Bd!
+		Thank you for using SMS.Bd!
 
 
-		For more details on the SMS.Net.Bd API and its usage, refer to the [official API documentation](https://www.sms.net.bd/api).
+		For more details on the SMS.Bd API and its usage, refer to the [official API documentation](https://www.sms.bd/api).
 	</PackageReleaseNotes>
-    <PackageProjectUrl>https://www.sms.net.bd/api</PackageProjectUrl>
+    <PackageProjectUrl>https://www.sms.bd/api</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 

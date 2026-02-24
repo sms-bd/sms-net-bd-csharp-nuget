@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMS_Net_BD.Enum
+namespace SMS_BD.Enum
 {
     internal enum RequestTypeEnum
     {

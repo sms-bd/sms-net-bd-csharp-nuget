@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
 using System.Net.Http.Headers;
-using SMS_Net_BD.Enum;
-using SMS_Net_BD.Exceptions;
+using SMS_BD.Enum;
+using SMS_BD.Exceptions;
 
-namespace SMS_Net_BD.Services
+namespace SMS_BD.Services
 {
     internal class SmsService
     {

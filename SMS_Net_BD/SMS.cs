@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
-using SMS_Net_BD.DTOJson;
-using SMS_Net_BD.Exceptions;
-using SMS_Net_BD.Services;
+using SMS_BD.DTOJson;
+using SMS_BD.Exceptions;
+using SMS_BD.Services;
 
-namespace SMS_Net_BD
+namespace SMS_BD
 {
     public class SMS
     {
@@ -20,7 +20,7 @@ namespace SMS_Net_BD
         }
 
         /// <summary>
-        /// Check your Current Balance using sms.net.bd API
+        /// Check your Current Balance using sms.bd API
         /// </summary>
         /// <returns></returns>
         /// <exception cref="SmsException"></exception>
@@ -32,7 +32,7 @@ namespace SMS_Net_BD
         }
 
         /// <summary>
-        /// Get SMS Report by Id using sms.net.bd API
+        /// Get SMS Report by Id using sms.bd API
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -56,7 +56,7 @@ namespace SMS_Net_BD
         }
 
         /// <summary>
-        /// Send SMS with Sender Id using sms.net.bd API
+        /// Send SMS with Sender Id using sms.bd API
         /// </summary>
         /// <param name="to_Phone_Number"></param>
         /// <param name="text_Massage"></param>
@@ -71,7 +71,7 @@ namespace SMS_Net_BD
         }
 
         /// <summary>
-        /// Send Schedule SMS using sms.net.bd API
+        /// Send Schedule SMS using sms.bd API
         /// </summary>
         /// <param name="to_Phone_Number"></param>
         /// <param name="text_Massage"></param>
@@ -87,7 +87,7 @@ namespace SMS_Net_BD
         }
 
         /// <summary>
-        /// Send Campaign SMS using sms.net.bd API
+        /// Send Campaign SMS using sms.bd API
         /// </summary>
         /// <param name="to_Phone_Number"></param>
         /// <param name="content_id"></param>
